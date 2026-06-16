@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcarchive
+*.ipa
+iOS/**/build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# .NET / Windows
+bin/
+obj/
+*.user
+*.suo
+*.rsuser
+TestResults/
+
+# Local logs and generated exports
+*.log
+PhotoMoveBridgeUSBExport/
+
+# App Store / signing secrets
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
